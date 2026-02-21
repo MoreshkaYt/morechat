@@ -1,4 +1,5 @@
-node_modules/
-data/
-*.db
-.env
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node server.js"
